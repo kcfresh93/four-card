@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+   /* overflow: hidden; */
+   font-size: 15px;
+}
+
+.container{
+    background-color: whitesmoke;
+     display: flex;
+     border: 2px solid white;
+     box-shadow: 3px 3px 1px 1px white;
+    height: 93vh;
+    border-radius: 5px;
+    width: 91%;
+    margin: 80px 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-container{
+    margin-top: 40px;
+}
+
+.sub-container h3{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-weight: 400px;
+    color:  hsl(234, 12%, 34%);
+}
+
+.sub-container h1{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-weight: 600px;
+}
+
+
+
+.sub-container p{
+    font-family: 'Poppins';
+    font-weight: 200px;
+    margin-top: 10px;
+    color:  hsl(229, 6%, 66%);
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 140px;
+    text-align: left;
+    width: 64%;
+    position: absolute;
+}
+
+.grid2{
+    display: grid;
+    width: 63%;
+   grid-template-rows: 1fr 1fr;
+    gap: 14px;
+    text-align: left;
+   left: 370px; 
+   top: 270px;
+   position: absolute;
+   
+}
+
+.box1{
+    border: 2px solid white;
+    box-shadow: 3px 3px 1px 1px white;
+    width: 45%;
+    position: absolute;
+    left: -230px;
+    background-color: white;
+    height: 30vh;
+    padding: 10px 20px;
+    border-top: 4px solid  hsl(180, 62%, 55%);
+
+}
+
+.box2{
+    border: 2px solid white;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 1px 1px white;
+    background-color: white;
+    width: 45%;
+    border-top: 4px solid  hsl(0, 78%, 62%);
+}
+
+.box3{
+    border: 1px solid white;
+    width: 45%;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 1px 1px white;
+    background-color: white;
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.box4{
+    border: 1px solid white;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 1px 1px white;
+    background-color: white;
+  left: 56%;
+position: absolute;
+  width: 45%;
+  border-top: 4px solid hsl(212, 86%, 64%)  ;
+}
+
+img{
+    width: 10%;
+    float: right;
+  margin-top: 60px;
+    
+}
